@@ -1,0 +1,88 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "adobe-garamond-pro", arial, serif;
+}
+
+.grid-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "l r";
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.left-side,
+.rightside {
+  height: 100%;
+  width: 100%;
+}
+
+/* LEFT SIDE*/
+
+.main-image-right-pg3 {
+  width: 50%;
+  grid-area: l;
+}
+
+.aside-sm-right-pg3 {
+  width: 50%;
+  font-size: 0.5em;
+  line-height: 1.286;
+  grid-area: l;
+}
+
+/* RIGHT SIDE */
+
+.bkg-right-pg3 {
+  height: 100%;
+  width: 100%;
+  grid-area: r;
+}
+
+.aside-md-right-pg3 {
+  position: absolute;
+  z-index: 1;
+  font-size: 1.95em;
+  font-style: italic;
+  line-height: 1.25;
+  text-align: center;
+  transform: translateY(-40%);
+  width: 22%;
+  height: 10%;
+  grid-area: r;
+}
+
+.collection {
+  position: absolute;
+  z-index: 4;
+  margin-top: 7%;
+  font-size: .75em;
+  font-weight: bold;
+  transform: translateX(210%);
+}
+.line-vertical-top {
+  position: absolute;
+  z-index: 3;
+  border-left: 1px solid #000000;
+  height: 21%;
+  transform: translateY(-120%);
+}
+
+.line-vertical-bottom {
+  position: absolute;
+  z-index: 4;
+  border-left: 1px solid #000000;
+  height: 24%;
+  transform: translateY(115%);
+}
+
+/*# sourceMappingURL=rlpage3.css.map */

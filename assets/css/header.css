@@ -1,0 +1,23 @@
+/* HEADER */
+
+.top-nav {
+  display: flex;
+}
+
+nav {
+  background-color: aqua;
+  grid-area: n;
+}
+
+.nav-line-short {
+  font-size: .75em;
+  border-bottom: #000000 solid 1px;
+  width: 50px;
+  margin: 0px 5px 0px 5px;
+  align-self: center;
+}
+
+.header-middle {
+  margin-left: auto;
+  margin-right: auto;
+}

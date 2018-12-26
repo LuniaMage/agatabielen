@@ -1,0 +1,41 @@
+/* FOOTER */
+
+footer {
+  grid-area: f;
+  position: fixed;
+}
+
+ul li {
+  padding: 0px;
+  list-style: none;
+}
+
+.bottom-nav {
+  display: flex;
+}
+
+.copyright {
+  font-size: .75em;
+  padding-right: 5px;
+}
+.nav-line-long {
+  font-size: .75em;
+  border-bottom: #000000 solid 1px;
+  width: 150px;
+  margin: 0px 10px 0px 5px;
+  align-self: center;
+}
+
+.author {
+  font-size: .75em;
+  margin-right: 90px;
+}
+.coll-no {
+}
+
+.see-all {
+  margin-left: 100px;
+  color: #9a9a9a;
+  /* border-bottom: #9a9a9a solid 1px; */
+  text-decoration-line: underline;
+}

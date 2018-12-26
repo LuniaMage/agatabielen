@@ -1,0 +1,30 @@
+body {
+  box-sizing: border-box;
+  margin: 10% 13% 10% 12%;
+  height: 100vh;
+  font-family: "adobe-garamond-pro", arial, serif;
+  font-weight: 400;
+}
+
+.grid-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "l r";
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.left-side
+.right-side {
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=body.css.map */

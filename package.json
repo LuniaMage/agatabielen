@@ -1,0 +1,14 @@
+{
+  "name": "agata-bielen",
+  "version": "1.0.0",
+  "description": "psd to html",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lunia Mage",
+  "license": "ISC",
+  "dependencies": {
+    "normalize": "^0.3.1"
+  }
+}

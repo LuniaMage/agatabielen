@@ -1,0 +1,8 @@
+links
+  next, previous, see all, Agata Beliene
+
+decorative lines - 3 on coll 1 main page
+
+pagination on right hand side
+
+accessibility - make sure to add 'role' to all major headings.

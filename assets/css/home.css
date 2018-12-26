@@ -1,0 +1,163 @@
+body {
+  box-sizing: border-box;
+  margin: 10% 13% 10% 12%;
+  height: 100vh;
+  font-family: "adobe-garamond-pro", arial, serif;
+  font-weight: 400;
+}
+
+/* GRID */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 50% 50%;
+  grid-template-areas: 
+  "right nature collection-top arrow-top", 
+  "colllection-bottom arrow-bottom arch point";
+  background-image: url("../images/home-pink-catalogue.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: aquamarine; */
+}
+
+
+.right-line {
+  grid-area: right;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.nature-line {
+  grid-area: nature;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.colllection-top {
+  grid-area: collection-top;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.arrow-top {
+  grid-area: arrow-top;
+  grid-column: 4/-1;
+  grid-row: 1/2;
+}
+
+.collection-bottom {
+  grid-area: collection-bottom;
+  grid-column: 1/2;
+  grid-row: 2/-1;
+}
+
+.arrow-bottom {
+  grid-area: arrow2;
+  grid-column: 2/3;
+  grid-row: 2/-1;
+}
+
+.arch-line {
+  grid-area: arch;
+  grid-column: 3/4;
+  grid-row: 2/-1;
+}
+
+.point-line {
+  grid-area: point;
+  grid-column: 4/-1;
+  grid-row: 2/-1;
+}
+
+/* BODY*/
+
+img {
+  width: 72%;
+  height: 85%;
+}
+
+.right-line,
+.nature-line,
+.arch-line,
+.point-line  {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-line .flex-item-1,
+.nature-line .flex-item-1,
+.arch-line .flex-item-1,
+.point-line .flex-item-1 {
+  position: absolute;
+  z-index: 1;
+  transform: rotateZ(90deg); 
+  margin-left: -40px;
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.78em;
+  transform: matrix(0,-1.117,1.117,0,0,0);
+}
+
+.right-line .flex-item-2,
+.nature-line .flex-item-2,
+.arch-line .flex-item-2,
+.point-line .flex-item-2 {
+ position: relative;
+}
+
+.right-line .flex-item-3,
+.nature-line .flex-item-3,
+.arch-line .flex-item-3,
+.point-line .flex-item-3 {
+  position: absolute;
+  z-index: 1;
+  align-self: flex-end;
+  margin-left: -30px;
+  font-size: 1em;
+}
+
+
+.collection-number {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.78em;
+  line-height: 1.571;
+  list-style: none;
+  padding: 0;
+}
+
+.collection-name {
+  font-size: 0.78em;
+  line-height: 1.571;
+  list-style: none;
+
+}
+
+.arrow {
+  font-family: Arial;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.78em;
+  line-height: 1.571;
+  list-style: none;
+  padding: 0;
+}
+
+/* .collection-top {
+  display: flex;
+  align-items: flex-start;
+} */
+
+.collection-top,
+.collection-bottom {
+  display: flex;
+}
+
+.collection-bottom,
+.arrow-bottom,
+.arch-line,
+.point-line {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=home.css.map */

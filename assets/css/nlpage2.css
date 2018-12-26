@@ -1,0 +1,74 @@
+body {
+  background-color: #ffffff;
+  height: 10vh;
+  width: 100vw;
+  font-family: "adobe-garamond-pro", arial, serif;
+}
+
+.grid-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "l r";
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.left-side,
+.right-side {
+  height: 100%;
+  width: 100%;
+}
+
+.bkg-nature-pg2 {
+  width: 100%;
+  grid-area: l;
+}
+
+.main-image-nature-pg2 {
+  position: absolute;
+  z-index: 1;
+  width: 30%;
+  height: 83%;
+  grid-area: l;
+}
+
+.aside-lg-nature-pg2 {
+  position: relative;
+  z-index: 2;
+  font-size: 5.5em;
+  line-height: 0.95;
+  font-weight: 400;
+  list-style: none;
+  transform: translateY(13%);
+}
+
+.line-1 {
+  transform: translateX(-38%);
+}
+
+.line-2 {
+  transform: translateX(-23%);
+}
+
+.line-3 {
+  transform: translateX(-14%);
+}
+
+.line-4 {
+  transform: translateX(-45%);
+}
+
+.line-5 {
+  transform: translateX(-24%);
+  line-height: 1.45;
+}
+
+/*# sourceMappingURL=nlpage2.css.map */
